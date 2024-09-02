@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #5f0606;
+    color: #000000;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    background: #ebeaea;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.left-column {
+    flex: 1;
+}
+
+.right-column {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #470505;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+    color: #470505;
+}
+
+header p {
+    color: #470505;
+    margin-bottom: 5px;
+}
+
+.contact-info a {
+    color: #470505;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #470505;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    border-bottom: 2px solid #470505;
+    padding-bottom: 5px;
+}
+
+.two-columns {
+    display: flex;
+}
+
+.left-column, .right-column {
+    width: 50%;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #000000;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.job, .education-item {
+    margin-bottom: 15px;
+}
+
+.job h3, .education-item h3 {
+    margin-bottom: 5px;
+    color: #470505;
+    font-size: 1.2em;
+}
+
+.job p, .education-item p {
+    margin-bottom: 5px;
+    color: #000000;
+}
